@@ -29,7 +29,7 @@ mongoose
     console.log('Cloud Database Connected');
   });
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const index = app.listen(port, () => {
   console.log(`API is running on http://127.0.0.1:${port}`);
 });
