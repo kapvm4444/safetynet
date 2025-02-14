@@ -40,16 +40,16 @@ exports.updateMe = catchAsync(async (req, res, next) => {
 
 //=>
 // get one user detail
-exports.getUser = factory.getOne();
+exports.getUser = factory.getOne(User);
 
 //=>
 // get all users details
-exports.getUsers = factory.getAll();
+exports.getUsers = factory.getAll(User);
 
 //=>
 // get one user detail
-exports.updateUser = factory.updateOne();
+exports.updateUser = factory.updateOne(User);
 
 //=>
 // get one user detail
-exports.deleteUser = factory.deleteOne();
+exports.deleteUser = factory.deleteOne(User);
