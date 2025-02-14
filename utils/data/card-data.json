@@ -1,0 +1,182 @@
+[
+  {
+    "name": "fire",
+    "description": "Fire broke out in a shopping mall",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "womensafety",
+    "description": "Harassed by a stranger in public",
+    "department": ["police", "women-safety"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Fire in the factory warehouse",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "police",
+    "description": "Robbery in a local store",
+    "department": ["police"],
+    "user": "user1"
+  },
+  {
+    "name": "medical",
+    "description": "Person fell from a building",
+    "department": ["medical"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Forest fire in the national park",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "womensafety",
+    "description": "Stalking incident reported",
+    "department": ["police", "women-safety"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Apartment complex caught on fire",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "police",
+    "description": "Arresting suspects from a shooting",
+    "department": ["police"],
+    "user": "user1"
+  },
+  {
+    "name": "medical",
+    "description": "Person suffering from food poisoning",
+    "department": ["medical"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Hospital building caught fire",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "womensafety",
+    "description": "Rape attempt in a park",
+    "department": ["police", "women-safety"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Wildfire in a forest area",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "police",
+    "description": "Drug bust in a neighborhood",
+    "department": ["police"],
+    "user": "user1"
+  },
+  {
+    "name": "medical",
+    "description": "Person experiencing severe chest pain",
+    "department": ["medical"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Fire in a chemical plant",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "womensafety",
+    "description": "Sexual harassment at work",
+    "department": ["police", "women-safety"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Fire in a restaurant kitchen",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "police",
+    "description": "Fighting between rival gangs",
+    "department": ["police"],
+    "user": "user1"
+  },
+  {
+    "name": "medical",
+    "description": "Person had a stroke",
+    "department": ["medical"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Fire in an office building",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "womensafety",
+    "description": "Victim of domestic violence",
+    "department": ["police", "women-safety"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Electrical fire in a residential complex",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "police",
+    "description": "Car chase after a robbery",
+    "department": ["police"],
+    "user": "user1"
+  },
+  {
+    "name": "medical",
+    "description": "Person injured in a car accident",
+    "department": ["medical"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Fire in a nightclub",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "womensafety",
+    "description": "Harassment on public transport",
+    "department": ["police", "women-safety"],
+    "user": "user1"
+  },
+  {
+    "name": "fire",
+    "description": "Fire at an oil refinery",
+    "department": ["fire", "police", "medical"],
+    "user": "user1"
+  },
+  {
+    "name": "police",
+    "description": "Traffic accident investigation",
+    "department": ["police"],
+    "user": "user1"
+  },
+  {
+    "name": "medical",
+    "description": "Drug overdose emergency",
+    "department": ["medical"],
+    "user": "user1"
+  }
+]

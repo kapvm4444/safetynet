@@ -1,0 +1,304 @@
+[
+  {
+    "fullName": "Anastasia Ivanova Petrovna",
+    "email": "ana.petrovna@gmail.com",
+    "dateOfBirth": "1967-12-11T00:00:00Z",
+    "password": "pass1234",
+    "address": "Mumbai, India",
+    "mobile": "9876656565",
+    "gender": "female",
+    "adhaar": "652347893144",
+    "emergencyContact": {
+      "name": "Maxim Petrov",
+      "mobile": "9876656567"
+    },
+    "blood": "o-",
+    "pastDisease": "heart attack",
+    "role": "user",
+    "department": "medical"
+  },
+  {
+    "fullName": "John William Smith",
+    "email": "john.smith@gmail.com",
+    "dateOfBirth": "1995-02-14T00:00:00Z",
+    "password": "pass1234",
+    "address": "Delhi, India",
+    "mobile": "9876656566",
+    "gender": "male",
+    "adhaar": "652347893145",
+    "emergencyContact": {
+      "name": "Jane Smith",
+      "mobile": "9876656568"
+    },
+    "blood": "a+",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "fire"
+  },
+  {
+    "fullName": "Maria Elena Rodriguez",
+    "email": "maria.rodriguez@gmail.com",
+    "dateOfBirth": "1990-06-08T00:00:00Z",
+    "password": "pass1234",
+    "address": "Kolkata, India",
+    "mobile": "9876656567",
+    "gender": "female",
+    "adhaar": "652347893146",
+    "emergencyContact": {
+      "name": "Carlos Rodriguez",
+      "mobile": "9876656569"
+    },
+    "blood": "ab+",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "women-safety"
+  },
+  {
+    "fullName": "Carlos Alberto Gonzalez",
+    "email": "carlos.gonzalez@gmail.com",
+    "dateOfBirth": "1985-04-21T00:00:00Z",
+    "password": "pass1234",
+    "address": "Bangalore, India",
+    "mobile": "9876656568",
+    "gender": "male",
+    "adhaar": "652347893147",
+    "emergencyContact": {
+      "name": "Ana Gonzalez",
+      "mobile": "9876656570"
+    },
+    "blood": "b-",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "police"
+  },
+  {
+    "fullName": "Elena Marina Kovalev",
+    "email": "elena.kovalev@gmail.com",
+    "dateOfBirth": "1988-08-15T00:00:00Z",
+    "password": "pass1234",
+    "address": "Chennai, India",
+    "mobile": "9876656569",
+    "gender": "female",
+    "adhaar": "652347893148",
+    "emergencyContact": {
+      "name": "Vladimir Kovalev",
+      "mobile": "9876656571"
+    },
+    "blood": "o+",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "fire"
+  },
+  {
+    "fullName": "David James Wilson",
+    "email": "david.wilson@gmail.com",
+    "dateOfBirth": "1992-03-25T00:00:00Z",
+    "password": "pass1234",
+    "address": "Hyderabad, India",
+    "mobile": "9876656570",
+    "gender": "male",
+    "adhaar": "652347893149",
+    "emergencyContact": {
+      "name": "Laura Wilson",
+      "mobile": "9876656572"
+    },
+    "blood": "ab-",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "medical"
+  },
+  {
+    "fullName": "Isabella Sofia Martinez",
+    "email": "isabella.martinez@gmail.com",
+    "dateOfBirth": "1994-11-12T00:00:00Z",
+    "password": "pass1234",
+    "address": "Pune, India",
+    "mobile": "9876656571",
+    "gender": "female",
+    "adhaar": "652347893150",
+    "emergencyContact": {
+      "name": "Miguel Martinez",
+      "mobile": "9876656573"
+    },
+    "blood": "a-",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "women-safety"
+  },
+  {
+    "fullName": "Mikhail Sergeyevich Orlov",
+    "email": "mikhail.orlov@gmail.com",
+    "dateOfBirth": "1990-07-07T00:00:00Z",
+    "password": "pass1234",
+    "address": "Mumbai, India",
+    "mobile": "9876656572",
+    "gender": "male",
+    "adhaar": "652347893151",
+    "emergencyContact": {
+      "name": "Anastasia Orlova",
+      "mobile": "9876656574"
+    },
+    "blood": "b+",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "police"
+  },
+  {
+    "fullName": "Sophia Anna Lee",
+    "email": "sophia.lee@gmail.com",
+    "dateOfBirth": "1996-09-30T00:00:00Z",
+    "password": "pass1234",
+    "address": "Delhi, India",
+    "mobile": "9876656573",
+    "gender": "female",
+    "adhaar": "652347893252",
+    "emergencyContact": {
+      "name": "Jin Lee",
+      "mobile": "9876656575"
+    },
+    "blood": "o-",
+    "pastDisease": "none",
+    "role": "user",
+    "department": "medical"
+  },
+  {
+    "fullName": "Samuel Henry Walker",
+    "email": "samuel.walker@gmail.com",
+    "dateOfBirth": "1985-10-14T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "fire",
+    "mobile": "9876543210",
+    "gender": "male"
+  },
+  {
+    "fullName": "Olivia Grace Johnson",
+    "email": "olivia.johnson@gmail.com",
+    "dateOfBirth": "1989-02-25T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "women-safety",
+    "mobile": "9876543211",
+    "gender": "female"
+  },
+  {
+    "fullName": "David Mark Davis",
+    "email": "david.davis@gmail.com",
+    "dateOfBirth": "1991-04-12T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "police",
+    "mobile": "9876543212",
+    "gender": "male"
+  },
+  {
+    "fullName": "Laura Emma Miller",
+    "email": "laura.miller@gmail.com",
+    "dateOfBirth": "1990-07-19T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "medical",
+    "mobile": "9876543213",
+    "gender": "female"
+  },
+  {
+    "fullName": "James Lucas Martinez",
+    "email": "james.martinez@gmail.com",
+    "dateOfBirth": "1993-11-02T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "fire",
+    "mobile": "9876543214",
+    "gender": "male"
+  },
+  {
+    "fullName": "Natalie Maria Taylor",
+    "email": "natalie.taylor@gmail.com",
+    "dateOfBirth": "1987-03-30T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "women-safety",
+    "mobile": "9876543215",
+    "gender": "female"
+  },
+  {
+    "fullName": "Sebastian Antonio Lopez",
+    "email": "sebastian.lopez@gmail.com",
+    "dateOfBirth": "1992-08-19T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "police",
+    "mobile": "9876543216",
+    "gender": "male"
+  },
+  {
+    "fullName": "Charlotte Lily Harris",
+    "email": "charlotte.harris@gmail.com",
+    "dateOfBirth": "1994-10-05T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "medical",
+    "mobile": "9876543217",
+    "gender": "female"
+  },
+  {
+    "fullName": "Lucas Nathaniel Green",
+    "email": "lucas.green@gmail.com",
+    "dateOfBirth": "1990-05-10T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "fire",
+    "mobile": "9876543218",
+    "gender": "male"
+  },
+  {
+    "fullName": "Sophia Rose Scott",
+    "email": "sophia.scott@gmail.com",
+    "dateOfBirth": "1988-01-22T00:00:00Z",
+    "password": "pass1234",
+    "role": "operator",
+    "department": "women-safety",
+    "mobile": "9876543219",
+    "gender": "female"
+  },
+  {
+    "fullName": "Alexander Charles Thompson",
+    "email": "alexander.thompson@gmail.com",
+    "dateOfBirth": "1980-12-11T00:00:00Z",
+    "password": "pass1234",
+    "role": "admin",
+    "department": "fire",
+    "mobile": "9876543220",
+    "gender": "male"
+  },
+  {
+    "fullName": "Olivia Eleanor Wilson",
+    "email": "olivia.wilson@gmail.com",
+    "dateOfBirth": "1985-04-19T00:00:00Z",
+    "password": "pass1234",
+    "role": "admin",
+    "department": "medical",
+    "mobile": "9876543221",
+    "gender": "female"
+  },
+  {
+    "fullName": "Benjamin Ethan Davis",
+    "email": "benjamin.davis@gmail.com",
+    "dateOfBirth": "1983-06-30T00:00:00Z",
+    "password": "pass1234",
+    "role": "admin",
+    "department": "women-safety",
+    "mobile": "9876543222",
+    "gender": "male"
+  },
+  {
+    "fullName": "Charlotte Elizabeth Brown",
+    "email": "charlotte.brown@gmail.com",
+    "dateOfBirth": "1982-08-10T00:00:00Z",
+    "password": "pass1234",
+    "role": "admin",
+    "department": "police",
+    "mobile": "9876543223",
+    "gender": "female"
+  }
+]
