@@ -17,7 +17,7 @@ router.route('/signup').post(authController.signup);
 // Login
 router.route('/login').post(authController.login);
 
-router.use(authController.protect);
+// router.use(authController.protect);
 
 //=>
 // Get user info (me)
@@ -34,9 +34,7 @@ router.route('/change-password').patch(authController.changePassword);
 //User Routes for super admin
 //=>
 // getting the details for all the users
-router
-  .route('/')
-  .get(authController.restrictTo('super-admin'), userController.getUsers);
+router.route('/').get(userController.getUsers);
 
 //=>
 // manipulate users
