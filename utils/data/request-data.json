@@ -1,0 +1,200 @@
+[
+  {
+    "user": "67b0063e8cd2b6000ce0480c",
+    "department": ["police"],
+    "location": ["40.7128", "-74.0060"],
+    "description": "A robbery occurred at the local convenience store, suspect on the run."
+  },
+  {
+    "user": "67b007048cd2b6000ce04810",
+    "department": ["medical", "fire"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "Fire broke out at the warehouse, injured victims in need of medical attention."
+  },
+  {
+    "user": "67b0021fcb3a55000dc409f1",
+    "department": ["police", "women-safety"],
+    "location": ["51.5074", "-0.1278"],
+    "description": "Domestic violence case reported in the area, investigating the incident."
+  },
+  {
+    "user": "67afe787bf87db28544de7ea",
+    "department": ["fire"],
+    "location": ["48.8566", "2.3522"],
+    "description": "Fire alarm triggered at the restaurant, evacuating the premises."
+  },
+  {
+    "user": "67afe787bf87db28544de7ec",
+    "department": ["police", "women-safety"],
+    "location": ["40.730610", "-73.935242"],
+    "description": "Assault reported near the park, searching for the suspect."
+  },
+  {
+    "user": "67afe787bf87db28544de7f0",
+    "department": ["medical"],
+    "location": ["37.7749", "-122.4194"],
+    "description": "Multiple injuries due to a car accident, emergency response underway."
+  },
+  {
+    "user": "67afe787bf87db28544de7f2",
+    "department": ["fire"],
+    "location": ["41.8781", "-87.6298"],
+    "description": "A kitchen fire at an apartment complex, residents safely evacuated."
+  },
+  {
+    "user": "67afe787bf87db28544de7f4",
+    "department": ["police"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "Armed robbery in the store, police chasing the suspects."
+  },
+  {
+    "user": "67afe787bf87db28544de7ee",
+    "department": ["women-safety", "police"],
+    "location": ["36.1699", "-115.1398"],
+    "description": "A woman reported harassment in the park, investigating the incident."
+  },
+  {
+    "user": "67afe787bf87db28544de7f6",
+    "department": ["medical", "fire"],
+    "location": ["52.5200", "13.4050"],
+    "description": "Emergency response for a building explosion, medical team ready."
+  },
+  {
+    "user": "67afe787bf87db28544de7f8",
+    "department": ["police", "fire"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "Gas leak reported at a commercial building, police and fire units dispatched."
+  },
+  {
+    "user": "67afe787bf87db28544de7fa",
+    "department": ["medical", "women-safety"],
+    "location": ["40.730610", "-73.935242"],
+    "description": "Domestic dispute turned violent, medical aid for injured."
+  },
+  {
+    "user": "67b0063e8cd2b6000ce0480c",
+    "department": ["police"],
+    "location": ["30.2672", "-97.7431"],
+    "description": "Vandalism reported at a school, police investigating the damage."
+  },
+  {
+    "user": "67b007048cd2b6000ce04810",
+    "department": ["fire", "women-safety"],
+    "location": ["51.1657", "10.4515"],
+    "description": "Firefighters called for a rescue operation after fire broke out in a women's shelter."
+  },
+  {
+    "user": "67b0021fcb3a55000dc409f1",
+    "department": ["police", "fire"],
+    "location": ["37.7749", "-122.4194"],
+    "description": "A large fire in a high-rise building, evacuating tenants and securing the area."
+  },
+  {
+    "user": "67afe787bf87db28544de7ea",
+    "department": ["women-safety", "medical"],
+    "location": ["52.3791", "4.9009"],
+    "description": "Victim of an assault, receiving medical attention."
+  },
+  {
+    "user": "67afe787bf87db28544de7ec",
+    "department": ["police"],
+    "location": ["35.6895", "139.6917"],
+    "description": "Police chasing down a suspect fleeing after a burglary."
+  },
+  {
+    "user": "67afe787bf87db28544de7f0",
+    "department": ["medical", "fire"],
+    "location": ["40.730610", "-73.935242"],
+    "description": "Fire broke out in a restaurant, providing medical assistance to the injured."
+  },
+  {
+    "user": "67afe787bf87db28544de7f2",
+    "department": ["police", "women-safety"],
+    "location": ["41.8781", "-87.6298"],
+    "description": "A man reported stalking behavior, police investigating further."
+  },
+  {
+    "user": "67afe787bf87db28544de7f4",
+    "department": ["fire"],
+    "location": ["48.8566", "2.3522"],
+    "description": "Fire at a shopping mall, evacuating customers and investigating the source."
+  },
+  {
+    "user": "67afe787bf87db28544de7ee",
+    "department": ["police", "medical"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "Drug overdose emergency, providing immediate medical assistance."
+  },
+  {
+    "user": "67afe787bf87db28544de7f6",
+    "department": ["women-safety", "fire"],
+    "location": ["30.2672", "-97.7431"],
+    "description": "Rescue operation after a fire broke out at a women's homeless shelter."
+  },
+  {
+    "user": "67afe787bf87db28544de7f8",
+    "department": ["medical"],
+    "location": ["41.9028", "12.4964"],
+    "description": "Multiple patients from a traffic accident, emergency medical assistance provided."
+  },
+  {
+    "user": "67afe787bf87db28544de7fa",
+    "department": ["police"],
+    "location": ["37.7749", "-122.4194"],
+    "description": "Suspect on the run after a shooting incident, police in pursuit."
+  },
+  {
+    "user": "67b0063e8cd2b6000ce0480c",
+    "department": ["fire", "police"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "Building collapse, fire team to extinguish flames, police to secure the scene."
+  },
+  {
+    "user": "67b007048cd2b6000ce04810",
+    "department": ["women-safety", "medical"],
+    "location": ["52.5200", "13.4050"],
+    "description": "Domestic violence situation with multiple injuries, medical team on-site."
+  },
+  {
+    "user": "67b0021fcb3a55000dc409f1",
+    "department": ["fire"],
+    "location": ["40.730610", "-73.935242"],
+    "description": "Firefighters dispatched to put out a dangerous blaze in an abandoned building."
+  },
+  {
+    "user": "67afe787bf87db28544de7ea",
+    "department": ["police", "fire"],
+    "location": ["36.7783", "-119.4179"],
+    "description": "Two cars collided in a high-speed chase, police and fire units responding."
+  },
+  {
+    "user": "67afe787bf87db28544de7ec",
+    "department": ["police"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "A shooting incident took place, police securing the area and collecting evidence."
+  },
+  {
+    "user": "67afe787bf87db28544de7f0",
+    "department": ["police", "medical"],
+    "location": ["40.7128", "-74.0060"],
+    "description": "Car accident with multiple casualties, police and medical teams on the scene."
+  },
+  {
+    "user": "67afe787bf87db28544de7f2",
+    "department": ["women-safety", "fire"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "A fire broke out in a women’s shelter, fire team managing the situation."
+  },
+  {
+    "user": "67afe787bf87db28544de7f4",
+    "department": ["medical"],
+    "location": ["40.730610", "-73.935242"],
+    "description": "Emergency medical response for a collapsed person due to a heart attack."
+  },
+  {
+    "user": "67afe787bf87db28544de7ee",
+    "department": ["fire", "police"],
+    "location": ["34.0522", "-118.2437"],
+    "description": "A blaze at a warehouse with some workers trapped inside, authorities responding."
+  }
+]

@@ -44,6 +44,15 @@ requestSchema.pre('save', async function (next) {
   next();
 });
 
+requestSchema.pre(/^find/, function (next) {
+  this.populate({
+    path: 'user',
+    select: '-__v',
+  });
+
+  next();
+});
+
 const requestModel = mongoose.model('Request', requestSchema);
 
 module.exports = requestModel;
