@@ -17,7 +17,7 @@ router.route('/signup').post(authController.signup);
 // Login
 router.route('/login').post(authController.login);
 
-// router.use(authController.protect);
+router.use(authController.protect);
 
 //=>
 // Get user info (me)
@@ -43,9 +43,7 @@ router
 router
   .route('/:id')
   .get(authController.restrictTo('super-admin'), userController.getUser)
-  .patch(
-    /*authController.restrictTo('super-admin'),*/ userController.updateUser,
-  )
+  .patch(authController.restrictTo('super-admin'), userController.updateUser)
   .delete(authController.restrictTo('super-admin'), userController.deleteUser);
 
 //=>
