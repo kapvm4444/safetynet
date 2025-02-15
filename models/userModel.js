@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const validator = require('validator');
 
 const userSchema = new mongoose.Schema(
@@ -70,7 +70,6 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: ['user', 'super-admin', 'admin', 'operator'],
-      select: false,
     },
     department: {
       type: String,
@@ -110,7 +109,7 @@ const userSchema = new mongoose.Schema(
 
 //virtual field
 userSchema.virtual('age').get(function () {
-  return Date.now() - this.dateOfBirth;
+  return parseInt((Date.now() - this.dateOfBirth) / 1000 / 60 / 60 / 24 / 365);
 });
 
 //label
@@ -122,10 +121,9 @@ userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
 
   //encrypt the password
-  this.password = await bcrypt.hash(this.password, 10);
+  this.password = await bcrypt.hash(this.password, 12);
 
-  this.passwordComfirm = undefined;
-
+  this.passwordConfirm = undefined;
   next();
 });
 
@@ -147,7 +145,7 @@ userSchema.methods.checkPassword = async function (
   userPassword,
   candidatePassword,
 ) {
-  return await bcrypt.compare(userPassword, candidatePassword);
+  return await bcrypt.compare(candidatePassword, userPassword);
 };
 
 //=>

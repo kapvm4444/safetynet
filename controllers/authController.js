@@ -9,21 +9,21 @@ const { promisify } = require('util');
 //=>
 // create JWT token
 const createJWTToken = (id) => {
-  return jwt.sign(id, process.env.JWT_SECRET, {
+  return jwt.sign({ id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRE,
   });
 };
 
 //=>
 // send the jwt token to both cookies and with response object
-const createSendToken = (user, res, statusCode) => {
+const createSendToken = (user, statusCode, res) => {
   const token = createJWTToken(user._id);
 
   const cookieOptions = {
-    // httpOnly: true,
+    httpOnly: true,
     // secure: true,
     expires: new Date(
-      Date.now() + process.env.JWT_EXPIRE * 24 * 60 * 60 * 1000,
+      Date.now() + process.env.JWT_COOKIE_EXPIRE * 24 * 60 * 60 * 1000,
     ),
   };
 
@@ -44,29 +44,11 @@ const createSendToken = (user, res, statusCode) => {
 //=>
 // signup user (create account)
 exports.signup = catchAsync(async (req, res, next) => {
+  req.body.role = 'user';
   //filter the content
-  const newUser = await User.create({
-    fullName: req.body.fullName,
-    email: req.body.email,
-    dateOfBirth: req.body.dateOfBirth,
-    password: req.body.password,
-    passwordConfirm: req.body.passwordConfirm,
-    address: req.body.address,
-    mobile: req.body.mobile,
-    gender: req.body.gender,
-    adhaar: req.body.adhaar,
-    emergencyContact: [
-      {
-        name: req.body.emergencyContact[0].name,
-        mobile: req.body.emergencyContact[0].mobile,
-      },
-    ],
-    blood: req.body.blood,
-    pastDisease: req.body.pastDisease,
-    role: 'user',
-  });
+  const newUser = await User.create(req.body);
   //send the response
-  createSendToken(newUser, res, 201);
+  createSendToken(newUser, 201, res);
 });
 
 //=>
@@ -86,7 +68,7 @@ exports.login = catchAsync(async (req, res, next) => {
     return next(new AppError('Email or Password Incorrect', 400));
 
   //send the token and user object
-  createSendToken(user, res, 200);
+  createSendToken(user, 200, res);
 });
 
 //=>
@@ -144,7 +126,7 @@ exports.changePassword = catchAsync(async (req, res, next) => {
   user.save();
 
   //generate new token (login again)
-  createSendToken(user, res, 200);
+  createSendToken(user, 200, res);
 });
 
 //=>

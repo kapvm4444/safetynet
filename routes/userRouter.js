@@ -34,14 +34,18 @@ router.route('/change-password').patch(authController.changePassword);
 //User Routes for super admin
 //=>
 // getting the details for all the users
-router.route('/').get(userController.getUsers);
+router
+  .route('/')
+  .get(authController.restrictTo('super-admin'), userController.getUsers);
 
 //=>
 // manipulate users
 router
   .route('/:id')
   .get(authController.restrictTo('super-admin'), userController.getUser)
-  .patch(authController.restrictTo('super-admin'), userController.updateUser)
+  .patch(
+    /*authController.restrictTo('super-admin'),*/ userController.updateUser,
+  )
   .delete(authController.restrictTo('super-admin'), userController.deleteUser);
 
 //=>

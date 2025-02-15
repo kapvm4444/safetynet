@@ -300,5 +300,14 @@
     "department": "police",
     "mobile": "9876543223",
     "gender": "female"
+  },
+  {
+    "fullName": "Admin",
+    "email": "admin@safety.net",
+    "password": "pass1234",
+    "dateOfBirth": "1982-08-10T00:00:00Z",
+    "mobile": "1234567890",
+    "role": "super-admin",
+    "gender": "male"
   }
 ]

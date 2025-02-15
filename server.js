@@ -38,6 +38,7 @@ const index = app.listen(port, () => {
 process.on('unhandledRejection', (error) => {
   console.log(`UNHANDLED REJECTION 💥`);
   console.log(`${error.name} => ${error.message}`);
+  console.log(error.stack);
   index.close(() => {
     process.exit(1);
   });
