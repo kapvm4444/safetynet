@@ -153,6 +153,8 @@ exports.restrictTo = (...roles) => {
       return next(
         new AppError('You are not authorizes to use this resource', 403),
       );
+
+    next();
   };
 };
 

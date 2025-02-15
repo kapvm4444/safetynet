@@ -5,10 +5,10 @@ const ApiFeature = require('./../utils/apiFeature');
 // get all the data
 exports.getAll = (Model) =>
   catchAsync(async (req, res, next) => {
-    let filter = {};
-    if (req.user) filter = { user: req.user._id };
+    // let filter = {};
+    // if (req.user) filter = { user: req.user._id };
 
-    const features = new ApiFeature(req.query, Model.find(filter))
+    const features = new ApiFeature(req.query, Model.find())
       .filter()
       .selectFields()
       .sort()

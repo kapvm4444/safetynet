@@ -6,7 +6,7 @@ const cardController = require('./../controllers/cardController');
 const router = express.Router();
 
 //nested routes
-router.route('/cards').get(authController.protect, cardController.getCards);
+router.route('/cards').get(authController.protect, cardController.getUserCards);
 
 //User routes
 //=>
