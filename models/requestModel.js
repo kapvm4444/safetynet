@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+const sendEmail = require('./../utils/email');
+const User = require('./userModel');
 
 const requestSchema = new mongoose.Schema(
   {
@@ -35,6 +37,12 @@ const requestSchema = new mongoose.Schema(
     toObject: { virtuals: true },
   },
 );
+
+requestSchema.pre('save', async function (next) {
+  const user = await User.findById(this.user);
+  sendEmail(user);
+  next();
+});
 
 const requestModel = mongoose.model('Request', requestSchema);
 
