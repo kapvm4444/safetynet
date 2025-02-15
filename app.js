@@ -57,7 +57,7 @@ app.use(
 
 app.use('/api/v1/cards', cardRouter);
 app.use('/api/v1/users', userRouter);
-app.use('/api/v1/request', requestRouter);
+app.use('/api/v1/requests', requestRouter);
 
 app.all('*', (req, res) => {
   res.end(
