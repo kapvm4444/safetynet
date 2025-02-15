@@ -6,7 +6,7 @@ const ApiFeature = require('./../utils/apiFeature');
 exports.getAll = (Model) =>
   catchAsync(async (req, res, next) => {
     let filter = {};
-    if (req.params.userId) filter = { user: req.params.userId };
+    if (req.user) filter = { user: req.user._id };
 
     const features = new ApiFeature(req.query, Model.find(filter))
       .filter()

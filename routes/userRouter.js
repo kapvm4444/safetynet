@@ -1,12 +1,12 @@
 const express = require('express');
 const authController = require('./../controllers/authController');
 const userController = require('./../controllers/userController');
-const cardRouter = require('./../routes/cardRouter');
+const cardController = require('./../controllers/cardController');
 
 const router = express.Router();
 
 //nested routes
-router.use('/:userId/cards', cardRouter);
+router.route('/cards').get(authController.protect, cardController.getCards);
 
 //User routes
 //=>
