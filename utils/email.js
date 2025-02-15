@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const catchAsync = require('./catchAsync');
+const axios = require('axios');
 
 const sendMail = catchAsync(async (user) => {
   const transporter = nodemailer.createTransport({
@@ -20,6 +21,23 @@ const sendMail = catchAsync(async (user) => {
   };
 
   await transporter.sendMail(mailOptions);
+
+  await axios({
+    method: 'post',
+    url: 'https://api.brevo.com/v3/transactionalSMS/sms',
+    headers: {
+      Accept: 'application/json',
+      'api-key': process.env.BREVO_API_KEY,
+      'Content-Type': 'application/json',
+    },
+    data: {
+      sender: 'Safety',
+      recipient: '+918128617434',
+      content: 'Emergency Alert',
+      unicodeEnabled: true,
+      organisationPrefix: 'Safety.net',
+    },
+  });
 });
 
 module.exports = sendMail;

@@ -1,6 +1,5 @@
 const catchAsync = require('./../utils/catchAsync');
 const ApiFeature = require('./../utils/apiFeature');
-const sendEmail = require('./../utils/email');
 
 //=>
 // get all the data
@@ -16,8 +15,6 @@ exports.getAll = (Model) =>
       .paginate();
 
     const docs = await features.query;
-
-    sendEmail();
 
     res.status(200).json({
       status: 'success',
