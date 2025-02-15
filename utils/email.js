@@ -13,8 +13,8 @@ const sendMail = catchAsync(async (user) => {
   });
 
   const mailOptions = {
-    from: 'Alert@safety.net',
-    to: 'kapvm4444@gmail.com',
+    from: 'kapvm4444@gmail.com',
+    to: 'darshanvaru2003@gmail.com',
     subject: 'Emergency Alert from your friend',
     text: `Hello User, You are in emergency contact list of ABC person \n something terrible happened and he send this alert to you. Please contact him ASAP`,
   };
