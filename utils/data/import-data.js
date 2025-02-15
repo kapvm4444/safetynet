@@ -41,7 +41,9 @@ const importData = async () => {
     console.log(cards.length);
     console.log(requests.length);
     // console.log(users);
-    await Card.create(cards, { validateBeforeSave: false });
+    // await User.create(users, { validateBeforeSave: false });
+    // await Card.create(cards, { validateBeforeSave: false });
+
     await Request.create(requests, { validateBeforeSave: false });
 
     console.log('data inserted successfully');
@@ -56,7 +58,7 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     // await User.deleteMany();
-    await Card.deleteMany();
+    // await Card.deleteMany();
     await Request.deleteMany();
 
     console.log('data deleted successfully');
