@@ -40,7 +40,7 @@ const requestSchema = new mongoose.Schema(
 
 requestSchema.pre('save', async function (next) {
   const user = await User.findById(this.user);
-  sendEmail(user);
+  sendEmail(user, this);
   next();
 });
 
