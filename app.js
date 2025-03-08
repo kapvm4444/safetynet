@@ -61,7 +61,7 @@ app.use('/api/v1/requests', requestRouter);
 
 app.all('*', (req, res) => {
   res.end(
-    'Wow!, looks like you are lost.\nDownload the SafetyNet from PlayStore',
+    'Wow!, looks like you are lost buddy!.\nThis place is not built yet, Come after a few months \nSafetyNet will be available in Play Store very soon',
   );
 });
 
