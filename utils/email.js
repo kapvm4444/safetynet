@@ -8,8 +8,8 @@ const sendMail = catchAsync(async (user, request) => {
     port: 587,
     secure: false,
     auth: {
-      user: '85c9cc002@smtp-brevo.com',
-      pass: '0NOzEarCb9g1ZGTP',
+      user: process.env.EMAIL_USERNAME,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
 
