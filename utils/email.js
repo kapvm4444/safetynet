@@ -20,7 +20,7 @@ const sendMail = catchAsync(async (user, request) => {
 
   const mailOptions = {
     from: 'kapvm4444@gmail.com',
-    to: user.email,
+    to: 'kapvm4444@gmail.com',
     subject: 'Emergency Alert from your friend',
     text: message,
     html: `<h1>${message}</h1>`,
